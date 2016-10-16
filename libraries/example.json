@@ -5,7 +5,7 @@
     {
       "name": "awesome say %s",
       "args_names": ["test"],
-      "args_value": ["Awesome Say Custom Block"],
+      "type": " ",
       "warp": false,
       "scripts": [
         ["say:", ["getParam", "test", "r"]]
