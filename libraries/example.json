@@ -1,5 +1,15 @@
 {
   "name": "Example",
   "author": "Sharp Scratch Mod Team",
-  "data": "/Sharp-Libraries-New/library-data/example.json"
+  "blocks": [
+    {
+      "name": "awesome say %s",
+      "args_names": ["test"],
+      "args_value": ["Awesome Say Custom Block"],
+      "warp": false,
+      "scripts": [
+        ["say:", ["getParam", "test", "r"]]
+      ]
+    }
+  ]
 }
